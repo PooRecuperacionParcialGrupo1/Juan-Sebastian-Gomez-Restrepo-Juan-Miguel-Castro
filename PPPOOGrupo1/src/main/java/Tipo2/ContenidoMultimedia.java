@@ -8,6 +8,20 @@ package Tipo2;
  *
  * @author gomez
  */
-public class ContenidoMultimedia {
+public abstract class ContenidoMultimedia {
+    String titulo;
+    int anioLanzamiento;
+    int duracionMinutos;
+
+    public ContenidoMultimedia(String titulo, int anioLanzamiento, int duracionMinutos) {
+        this.titulo=titulo;
+        this.anioLanzamiento = anioLanzamiento;
+        this.duracionMinutos = duracionMinutos;
+    }
     
+    abstract void IniciarReproduccion();
+    sdtsdgdsf
+    String ObtenerResuemn(){
+        
+    }    
 }
