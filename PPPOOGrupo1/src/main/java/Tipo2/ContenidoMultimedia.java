@@ -20,8 +20,7 @@ public abstract class ContenidoMultimedia {
     }
     
     abstract void IniciarReproduccion();
-    sdtsdgdsf
-    String ObtenerResuemn(){
-        
+    public String ObtenerResuemn(){
+        return titulo + " - "+anioLanzamiento;
     }    
 }
